@@ -1,0 +1,122 @@
+h1{
+  font-family: 'Poppins', sans-serif;
+   font-size:35px;
+}
+p{
+   font-family: 'Lato', sans-serif;
+  font-size:18px;
+}
+nav{
+  font-family: 'Lato', sans-serif;
+}
+.header{
+  background-color:#082B59;
+}
+.footer{
+  background-color:#082B59;
+  font-family: 'Lato', sans-serif;
+}
+.bottom{
+  text-align:center;
+  color:white;
+}
+.logo{
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+a{
+  color:white;
+  text-decoration:none;
+  font-size:18.5px;
+}
+.map{
+  color:#D98555;
+}
+.navigation{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap:10px;
+}
+.navigation > div{
+  width: 100px;
+  margin: 10px 10px;
+  text-align: center;
+  line-height: 20px;
+}
+.fa-solid{
+  color:white;
+  margin-right: 3px;
+}
+.divider{
+  height: 10px;
+  width: 100%;
+  background-color:#D98555;
+}
+.container{
+  display: flex;
+  justify-content:space-between;
+  gap: 40px;
+  max-width:1000px;
+  margin:0px auto;
+}
+.card{
+  background-color:#59331D;
+  font-size:18px;
+  width:308px;
+  border-radius: 20px;
+}
+.cardimg{
+  width:100%;
+  border-radius: 20px 20px 0 0;
+}
+.card p{
+  color:white;
+  margin:15px;
+}
+.button{
+  background-color:#59331D;
+  color:white;
+  font-size:18px;
+  width:130px;
+  height:60px;
+  border-radius: 10px;
+  border:none;
+}
+@media screen and (max-width: 1000px) 
+{
+ .mobileimg{
+  background-image: url("https://assets.codepen.io/6306176/gulp-coffee-beans.jpg");
+    height: 300px;
+    border-radius:25px 25px 0 0;
+    background-position:center bottom;
+    background-repeat: no repeat;
+    background-size:cover;
+  }
+  .cardimg{
+    display:none;
+  }
+     .container{
+      display:flex;
+      flex-direction:column;
+      Justify-content:space-between;
+      gap:40px;
+      max-width:1000px;
+      margin:0px auto;
+    }
+.card{
+  width:100%;
+}
+.button {
+  width:100%
+}
+h1{
+  text-align:center;
+  font-size: 32px;
+}
+p{
+  text-align:center;
+  font-size: 14px;
+  }
+}
